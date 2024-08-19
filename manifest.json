@@ -1,0 +1,11 @@
+{
+    "name": "chromeExtension_AddMenuSendGhost",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": ["contextMenus"],
+    "description": "読み上げ連携をしているSSPに対して選択文字列を送信することで楽をすることを目的とする。",
+    "background": {
+        "service_worker": "back.js"
+    }
+}
+
